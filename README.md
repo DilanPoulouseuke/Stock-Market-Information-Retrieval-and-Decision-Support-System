@@ -1,3 +1,4 @@
+
 # Stock Information Extractor & Analyzer
 
 ## Project Overview
@@ -26,62 +27,62 @@ This project is designed to extract stock information from websites, summarize t
    ```bash
    git clone https://github.com/yourusername/stock-info-extractor.git
    ```
-   
+
 2. **Navigate to the project directory:**
 
-    ```bash
-    cd stock-info-extractor
-    ```
+   ```bash
+   cd stock-info-extractor
+   ```
 
 3. **Install dependencies:**
 
-You can install the required dependencies by using pip:
+   You can install the required dependencies by using pip:
 
-    ```bash
-    pip install crewai python-dotenv textwrap
-    ```
+   ```bash
+   pip install crewai python-dotenv textwrap
+   ```
 
-3. **Configure environment variables:**
+4. **Configure environment variables:**
 
-Create a .env file in the root directory to store any necessary API keys or configuration values.
+   Create a `.env` file in the root directory to store any necessary API keys or configuration values.
 
-Example:
+   Example:
 
-    ```bash
-    API_KEY=your_api_key_here
-    ```
+   ```bash
+   API_KEY=your_api_key_here
+   ```
 
 ## How to Use
 
 1. **Run the Application:**
 
-To start the stock analysis process:
-    
-    ```bash
-    python main.py
-    ```
+   To start the stock analysis process:
+
+   ```bash
+   python main.py
+   ```
 
 2. **Input the company name:**
 
-When prompted, provide the name of the company you want to analyze.
+   When prompted, provide the name of the company you want to analyze.
 
-Example:
+   Example:
 
-    ```bash
-    What is the company you want to analyze?
-    Apple
-    ```
+   ```bash
+   What is the company you want to analyze?
+   Apple
+   ```
 
 3. **View Results:**
 
-The program will extract, analyze, and summarize stock information, providing a comprehensive report with a final recommendation (Buy/Sell).
+   The program will extract, analyze, and summarize stock information, providing a comprehensive report with a final recommendation (Buy/Sell).
 
-Example output:
+   Example output:
 
-    ```bash
-    ########################
-    ## Here is the Report
-    ########################
-    Stock Recommendation: BUY
-    Reason: Strong financials, positive market sentiment, and insider buying activity.
-    ```
+   ```bash
+   ########################
+   ## Here is the Report
+   ########################
+   Stock Recommendation: BUY
+   Reason: Strong financials, positive market sentiment, and insider buying activity.
+   ```
