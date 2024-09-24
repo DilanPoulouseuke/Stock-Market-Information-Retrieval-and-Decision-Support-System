@@ -44,7 +44,7 @@ This project is designed to extract stock information from websites, summarize t
 
 4. **Configure environment variables:**
 
-   Create a `.env` file in the root directory to store any necessary API keys or configuration values.
+   Update `.env` file in the root directory with your appropriate API keys or configuration values.
 
    Example:
 
