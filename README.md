@@ -25,13 +25,13 @@ This project is designed to extract stock information from websites, summarize t
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/stock-info-extractor.git
+   git clone https://github.com/DilanPoulouseuke/Stock-Market-Information-Retrieval-and-Decision-Support-System.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd stock-info-extractor
+   cd Stock-Market-Information-Retrieval-and-Decision-Support-System
    ```
 
 3. **Install dependencies:**
@@ -49,7 +49,7 @@ This project is designed to extract stock information from websites, summarize t
    Example:
 
    ```bash
-   API_KEY=your_api_key_here
+   API_KEY = your_api_key_here
    ```
 
 ## How to Use
